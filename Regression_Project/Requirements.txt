@@ -10,3 +10,4 @@ python-dotenv==1.2.1
 python-multipart==0.0.20
 matplotlib==3.10.7
 seaborn==0.13.2
+gunicorn
