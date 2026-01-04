@@ -10,6 +10,6 @@ class CustomerData(BaseModel):
     Balance: float = Field(ge=0, description="Account balance")
     NumOfProducts: int = Field(ge=0, le=4, description="Number of bank products (1-4)")
     HasCrCard: Literal[0, 1] = Field(description="Has credit card (0=No, 1=Yes)")
-    IsActiveMember: Literal[0, 1] = Field(description="Acyive member status (0=No, 1=Yes)")
+    IsActiveMember: Literal[0, 1] = Field(description="Active member status (0=No, 1=Yes)")
     EstimatedSalary: float = Field(ge=0, description="EstimatedSalary annual salary")
     
